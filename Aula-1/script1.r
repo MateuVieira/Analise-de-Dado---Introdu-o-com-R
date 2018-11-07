@@ -28,4 +28,4 @@ install.packages("plyr")
 library(plyr)
 
 auxiliar <- count(aulas, vars = "course_id")
-write.csv(auxiliar, "popularidade.csv")
+write.csv(auxiliar, file = "C:/Users/mateu/Documents/GitHub/R/Analise de Dado - Introducao com R/Aula-1/Popularidade.csv")
